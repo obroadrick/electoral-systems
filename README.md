@@ -1,15 +1,4 @@
 # electoral-systems
 
-Many methods exist to make social choices. 
-Here I consider a body of voters having to select one from 
-a list of candidates. 
+This repository contains my work for a project in my Game Theory course at GWU. The project presentation is included, as well as the source code for running simulations of elections to compare three electoral systems: plurality, instant-runoff voting, and the GT-Method.
 
-## Methods
-
-- [ ] Plurality
-- [ ] Instant-runoff
-- [ ] Borda
-- [ ] GT [1]
-- [ ] GTD [2]
-- [ ] Approval Voting
-- [ ] 
