@@ -5,7 +5,7 @@ This repository contains my work for a project in my Game Theory in Computer Sci
 ## Condorcet Winners
 A useful idea when analyzing voting systems is that of a Condorcet Winner. This is a winner who, when put in a contest with each other candidate in a race, would win head-to-head. We can represent a race by a directed graph where candidates are nodes, and directed edges point from winner to loser and are weighted by the margin that the corresponding head-to-head race would reveal. Such graphs can be constructed entirely from truthful rankings of the candidates in the race, where difference in ranking shows the prefered candidate when tallying head-to-head races. See the example below. 
 ![img](condorcetwinner.png)
-On the left we have a Condorcet winner because candidate A defeats all other candidates. On the right we have a Condorcet tie because no Condorcet winner exists; A beats B beats C. The Smith set, {A, B, C} consists of all the 'best' candidates in the sense that they are in a Condorcet tie with each other, but they all beat all other candidates in the race (D in this case).
+On the left we have a Condorcet winner because candidate A defeats all other candidates. On the right we have a Condorcet tie because no Condorcet winner exists; A beats B beats C. The Smith set, {A, B, C} consists of all the 'best' candidates in the sense that they are in a Condorcet tie with each other, but they all beat all other candidates in the race (D in this case). In the example on the left, the Smith set is {A}, consisting only of a Condorcet winner; in general a Condorcet winner exists when the size of the Smith set is 1.
 
 ## GT-Method
 As presented in [An Optimal Single-Winner Preferential Voting System Based on
