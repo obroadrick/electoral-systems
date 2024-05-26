@@ -15,3 +15,4 @@ Perhaps a downside to the GT-Method is that a winner to the election is chosen b
 
 ## Results
 There were cases in which a plurality election failed to select the most popular candidate, while the others did so. 
+
